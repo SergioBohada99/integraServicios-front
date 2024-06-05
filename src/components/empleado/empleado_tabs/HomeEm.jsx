@@ -22,15 +22,15 @@ function HomeEm() {
           Recursos
         </Divider>
         <p>
-        En la pestaña de Recursos, puedes registrar los recursos disponibles en la unidad a la que perteneces
+        En la pestaña de Recursos, puedes registrar los recursos disponibles en la unidad a la que perteneces y además consultar los recursos disponibles más reservados.
         </p>
       </div>
       <div>
         <Divider sx={{ fontSize: "20px", fontWeight: "600" }}>
-          Reservas
+          Prestamos
         </Divider>
         <p>
-        En la pestaña de Reservas puedes consultar las reservas vigentes por parte de los usuarios
+        En la pestaña de prestamos puedes consultar las reservas vigentes por parte de los usuarios y prestar el recurso sí es necesario.
         </p>
         <Divider sx={{ marginTop: "20px" }} />
       </div>

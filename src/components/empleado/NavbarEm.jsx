@@ -16,9 +16,9 @@ function NavbarEm({ sidebarState, setSidebarState, setCurrentComp }) {
     setCurrentComp("Recursos");
   };
 
-  const setReser = (e) => {
+  const setPres = (e) => {
     e.preventDefault();
-    setCurrentComp("Reservas");
+    setCurrentComp("Prestamos");
   };
 
   const setAyuda = (e) => {
@@ -72,9 +72,9 @@ function NavbarEm({ sidebarState, setSidebarState, setCurrentComp }) {
               </a>
             </li>
             <li className="nav-link">
-              <a href="#" onClick={setReser}>
+              <a href="#" onClick={setPres}>
                 <i className="bx bx-calendar-alt icon"></i>
-                <span className="text nav-text">Reservas</span>
+                <span className="text nav-text">Prestamos</span>
               </a>
             </li>
             <li className="nav-link">

@@ -343,12 +343,35 @@ header .image-text .header-text {
 }
 
 
+
+
 .unidad_lista {
     width: 50vw;
     height: 100%;
     padding: 0 2vw 0 2vw;
     overflow-x: auto;
 }
+
+.most-reserved{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    padding: 5%;
+}
+
+.most-reserved div{
+    padding: 50px;
+    border: solid 1px var(--primary-color);
+    border-radius: 25px;
+    text-align: center;
+}
+.empleado_lista {
+    width: 60vw;
+    padding: 0 2vw 0 2vw;
+    overflow-x: auto;
+}
+
+
 
 .unidad_control {
     width: 29.5vw;

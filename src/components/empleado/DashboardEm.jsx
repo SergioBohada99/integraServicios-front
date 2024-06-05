@@ -4,7 +4,7 @@ import "boxicons";
 import NavbarEm from "./NavbarEm.jsx";
 import RecursosEm from "./empleado_tabs/RecursosEm.jsx";
 import AyudaEm from "./empleado_tabs/AyudaEm.jsx";
-import RerservasEm from "./empleado_tabs/RerservasEm.jsx";
+import PrestamosEm from "./empleado_tabs/PrestamosEm.jsx";
 import HomeEm from "./empleado_tabs/HomeEm.jsx";
 
 function DashboardEm() {
@@ -22,8 +22,8 @@ function DashboardEm() {
       >
         {currentComp === "Recursos" ? (
           <RecursosEm />
-        ) : currentComp === "Reservas" ? (
-          <RerservasEm />
+        ) : currentComp === "Prestamos" ? (
+          <PrestamosEm />
         ) : currentComp === "Ayuda" ? (
           <AyudaEm />
         ) : (
