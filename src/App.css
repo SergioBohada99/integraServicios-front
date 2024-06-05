@@ -1,0 +1,32 @@
+
+  
+  /* Para navegadores basados en WebKit (Chrome, Edge, Safari) */
+  *::-webkit-scrollbar {
+    width: 6px; /* Ancho del scrollbar */
+    height: 5px; /* Altura del scrollbar (relevante para el desplazamiento horizontal) */
+    margin: 45px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent; /* Color de la pista (track) */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(105, 92, 243, 0.6); /* Color del pulgar (thumb) con transparencia */
+    border-radius: 10px; /* Bordes redondeados para el pulgar */
+
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(105, 92, 243, 0.8); /* Color del pulgar al pasar el mouse por encima */
+  }
+
+  *::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 150px; 
+}
+
+*::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 150px;
+}
